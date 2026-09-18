@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password_hash": "$2a$10$0aCdyDn/dzap5s.oOXWTFelmIFk0T5piZE15bzW/3F9iyVtH0Fw12",
+      "role": "admin",
+      "nama": "Administrator"
+    }
+  ],
+  "petugas": [
+    {
+      "id": 1,
+      "username": "petugas1",
+      "password_hash": "$2a$10$vp7q6g6H/CxBLN0hgy0/kuWVtXYYrMEx1lhT3lOa1oOznmXD6Rddm",
+      "nama": "Petugas Lapangan 1",
+      "nip": "198001012010011001",
+      "jabatan": "Monitoring",
+      "wilayah": "Sumatera",
+      "role": "petugas"
+    },
+    {
+      "id": 2,
+      "username": "petugas2",
+      "password_hash": "$2a$10$EWBOlosQY2R8UL0NbCVK3OIIU0.sv7SEkBIBqD2VC5/ZWyFY6ICO.",
+      "nama": "Petugas Lapangan 2",
+      "nip": "198001012010011002",
+      "jabatan": "FO",
+      "wilayah": "Jawa",
+      "role": "petugas"
+    }
+  ]
+}
