@@ -47,7 +47,8 @@ app.get("/",(req,res)=>res.json({message:"ESDM Backend LIVE ssss ✅", SHEET_ID,
 app.get("/api/sheet", async (req,res)=>{
   try{
     const csvUrl = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${EN_LOCAL_GID}`;
-    const r = await fetch(csvUrl);
+    res.json("csvUrl":csvUrl);
+	const r = await fetch(csvUrl);
     if(!r.ok) throw new Error("Gagal fetch sheet: "+r.status);
     const csv = await r.text();
     const data = parseCSV(csv);
