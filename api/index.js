@@ -42,7 +42,7 @@ function parseCSV(csvText){
   }).filter(x=>x.tanggal && x.pos);
 }
 
-app.get("/",(req,res)=>res.json({message:"ESDM Backend LIVE ✅", SHEET_ID, GID_LAPHAR, EN_LOCAL_GID}));
+app.get("/",(req,res)=>res.json({message:"ESDM Backend LIVE ssss ✅", SHEET_ID, GID_LAPHAR, EN_LOCAL_GID}));
 
 app.get("/api/sheet", async (req,res)=>{
   try{
